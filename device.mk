@@ -209,6 +209,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     power.angler
 
+#Exodus BSP
+TARGET_USES_EXODUS_BSP := true
+
 PRODUCT_COPY_FILES += \
     device/huawei/angler/nfc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
     device/huawei/angler/nfc/libnfc-nxp.conf:system/etc/libnfc-nxp.conf
