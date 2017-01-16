@@ -2,7 +2,7 @@ type dpl_device, dev_type;
 type drm_block_device, dev_type;
 type media_device, dev_type;
 type modem_block_device, dev_type;
-type persist_block_device, dev_type;
+#type persist_block_device, dev_type;
 type shared_log_device, dev_type;
 type ssd_block_device, dev_type;
 type subsys_modem_device, dev_type;

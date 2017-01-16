@@ -478,7 +478,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 $(call inherit-product-if-exists, vendor/qcom/gpu/msm8994/msm8994-gpu-vendor.mk)
 
 # copy wlan firmware
-$(call inherit-product-if-exists, hardware/broadcom/wlan/bcmdhd/firmware/bcm4358/device-bcm.mk)
+$(call inherit-product, hardware/broadcom/wlan/bcmdhd/firmware/bcm4358/device-bcm.mk)
 
 # GPS configuration
 PRODUCT_COPY_FILES += \
